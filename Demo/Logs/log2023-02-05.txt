@@ -1,0 +1,309 @@
+2023-02-05 13:34:07,482 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 13:34:07,563 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 13:34:09,415 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 13:34:09,716 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 13:34:10,052 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 13:34:10,317 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 13:34:10,528 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 13:34:13,971 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 13:34:17,435 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 13:34:17,877 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 13:34:18,457 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 14:48:53,875 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 14:48:54,014 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 14:50:39,985 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 14:50:40,175 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 14:56:17,332 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 14:56:17,438 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 15:02:59,359 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 15:02:59,478 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 15:03:19,099 - HomePage.py:[31] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 15:03:35,361 - HomePage.py:[26] - [INFO] - click Connection of home page: Connexion
+2023-02-05 15:20:43,456 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 15:20:43,583 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 15:20:43,649 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 15:20:44,630 - HomePage.py:[25] - [INFO] - click Connection of home page: Connexion
+2023-02-05 15:22:33,551 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 15:22:33,632 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 15:22:33,696 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 15:22:35,509 - HomePage.py:[25] - [INFO] - click Connection of home page: Connexion
+2023-02-05 15:23:10,058 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 15:23:10,321 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 15:23:10,542 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 15:23:10,806 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 15:23:11,085 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 15:23:14,359 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 15:23:17,655 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 15:23:18,023 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 15:23:18,558 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 16:01:35,399 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 16:01:35,542 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 16:01:35,615 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 16:01:36,924 - HomePage.py:[25] - [INFO] - click Connection of home page: Connexion
+2023-02-05 16:05:18,031 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 16:05:18,139 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 16:05:18,192 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 16:05:19,160 - HomePage.py:[25] - [INFO] - click Connection of home page: Connexion
+2023-02-05 16:17:47,283 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 16:17:47,402 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 16:17:47,461 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 16:17:48,913 - HomePage.py:[25] - [INFO] - click Connection of home page: Connexion
+2023-02-05 16:31:02,898 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 16:31:03,054 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 16:31:03,119 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 16:31:04,427 - HomePage.py:[25] - [INFO] - click Connection of home page: Connexion
+2023-02-05 16:31:12,211 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 16:31:12,600 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 16:31:12,934 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 16:31:13,215 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 16:31:13,595 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 16:31:14,390 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 16:31:14,802 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 16:31:15,281 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 16:31:15,757 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:07:21,748 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:07:21,908 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:07:21,985 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:07:23,331 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:07:24,083 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:07:24,423 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:07:24,783 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:07:25,148 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:07:25,401 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:07:25,639 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:07:25,997 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:07:26,378 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:07:26,755 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:09:49,120 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:09:49,206 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:09:49,264 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:09:50,543 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:09:51,329 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:09:51,694 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:09:51,984 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:09:52,245 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:09:52,654 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:09:52,879 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:09:53,185 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:09:53,634 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:09:53,993 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:11:39,168 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:11:39,268 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:11:39,336 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:11:40,807 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:11:41,464 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:11:41,816 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:11:42,607 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:11:42,933 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:11:43,204 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:11:43,430 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:11:43,769 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:11:44,197 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:11:44,578 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:12:16,505 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:12:16,637 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:12:16,696 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:12:17,631 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:12:18,481 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:12:18,822 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:12:19,150 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:12:19,433 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:12:19,759 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:12:20,047 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:12:20,399 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:12:20,809 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:12:21,258 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:14:51,016 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:14:51,096 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:14:51,149 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:14:52,233 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:14:52,994 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:14:53,299 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:14:53,615 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:14:53,960 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:14:54,210 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:14:54,488 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:14:54,821 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:14:55,193 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:14:55,567 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:15:59,407 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:15:59,540 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:15:59,615 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:16:01,157 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:16:01,886 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:16:02,218 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:16:02,501 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:16:02,929 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:16:03,183 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:16:03,433 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:16:03,794 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:16:04,159 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:16:04,546 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:22:54,728 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:22:54,837 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:22:54,902 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:22:55,924 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:22:56,708 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:22:57,026 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:22:57,320 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:22:57,581 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:22:57,841 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:22:58,196 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:22:58,547 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:22:58,956 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:22:59,308 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:40:57,311 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:40:57,406 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:40:57,511 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:40:58,983 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:40:59,829 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:41:00,224 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:41:00,570 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:41:00,807 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:41:01,023 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:41:01,283 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:41:01,665 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:41:02,032 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:41:02,422 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 17:43:05,949 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 17:43:06,019 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 17:43:06,073 - HomePage.py:[28] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 17:43:07,324 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 17:43:08,181 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 17:43:08,584 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 17:43:08,953 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 17:43:09,427 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 17:43:09,838 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 17:43:10,229 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 17:43:10,641 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 17:43:11,068 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 17:43:11,445 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 18:24:12,388 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 18:24:13,168 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 18:24:13,752 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 18:24:15,701 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 18:24:18,766 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 18:24:20,531 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 18:24:21,215 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 18:24:21,391 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 18:24:21,540 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 18:24:21,741 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 18:24:22,027 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 18:24:22,392 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 18:24:22,687 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 18:30:52,364 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 18:30:52,680 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 18:30:58,435 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 18:31:00,051 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 18:31:02,049 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 18:31:02,309 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 18:31:02,600 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 18:31:02,732 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 18:31:02,915 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 18:31:03,134 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 18:31:03,469 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 18:31:03,836 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 18:31:04,169 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 18:46:12,831 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 18:46:14,429 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 18:48:36,961 - HomePage.py:[29] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 18:48:38,984 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 18:48:40,034 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 18:48:40,329 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 18:48:40,615 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 18:48:40,752 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 18:48:40,955 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 18:48:41,178 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 18:48:41,482 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 18:48:41,852 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 18:48:42,237 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 19:52:06,320 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 19:52:06,421 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 19:52:06,514 - HomePage.py:[30] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 19:52:07,974 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 19:52:08,736 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 19:52:09,071 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 19:52:09,385 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 19:52:09,625 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 19:52:10,026 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 19:52:10,293 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 19:52:10,598 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 19:52:11,040 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 19:52:11,411 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 19:55:16,619 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 19:55:16,700 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 19:55:16,730 - HomePage.py:[30] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 19:55:17,744 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 19:55:18,514 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 19:55:18,815 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 19:55:19,127 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 19:55:19,376 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 19:55:19,612 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 19:55:19,893 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 19:55:20,261 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 19:55:20,670 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 19:55:21,045 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 20:07:00,283 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 20:07:00,376 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 20:07:00,431 - HomePage.py:[30] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 20:07:01,667 - HomePage.py:[24] - [INFO] - click Connection of home page: Connexion
+2023-02-05 20:07:02,364 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 20:07:02,720 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 20:07:03,109 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 20:07:03,344 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 20:07:03,587 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 20:07:03,834 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 20:07:04,174 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 20:07:04,539 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 20:07:04,972 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 21:14:40,640 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 21:14:40,738 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 21:14:40,825 - HomePage.py:[31] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 21:15:01,600 - HomePage.py:[25] - [INFO] - click Connection of home page: Connexion
+2023-02-05 21:15:03,820 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 21:15:04,952 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 21:15:05,415 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 21:15:05,862 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 21:15:06,096 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 21:15:06,464 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 21:15:06,870 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 21:15:07,276 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 21:15:07,806 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 21:18:57,790 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 21:18:57,888 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 21:18:57,970 - HomePage.py:[36] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 21:21:31,079 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 21:21:31,160 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 21:21:31,227 - HomePage.py:[36] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 21:22:29,512 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 21:22:29,598 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 21:22:29,680 - HomePage.py:[36] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 21:23:58,647 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 21:23:58,747 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 21:23:58,822 - HomePage.py:[37] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 21:24:44,658 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 21:24:44,737 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 21:24:44,826 - HomePage.py:[37] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 21:24:56,358 - HomePage.py:[31] - [INFO] - click Connection of home page: Connexion
+2023-02-05 21:24:57,881 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 21:24:58,302 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 21:24:58,771 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 21:24:59,185 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 21:24:59,732 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 21:25:00,413 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 21:25:01,134 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 21:25:02,073 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 21:25:02,740 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
+2023-02-05 22:09:06,643 - helperFunctions.py:[34] - [INFO] - Clicking on the link: Continuer sans accepter
+2023-02-05 22:09:06,776 - helperFunctions.py:[23] - [INFO] - Launching application url: https://www.ornikar.com/
+2023-02-05 22:09:06,844 - HomePage.py:[34] - [INFO] - verify we are in home page: Ornikar : L'auto-école et l'assurance auto nouvelle génération
+2023-02-05 22:09:07,874 - HomePage.py:[29] - [INFO] - click Connection of home page: Connexion
+2023-02-05 22:09:08,818 - BasePage.py:[44] - [INFO] - Typing in an element: firstname_XPATH value entered as : Rahul
+2023-02-05 22:09:09,175 - BasePage.py:[44] - [INFO] - Typing in an element: lastname_XPATH value entered as : SHETTY
+2023-02-05 22:09:09,617 - BasePage.py:[44] - [INFO] - Typing in an element: day_XPATH value entered as : 12
+2023-02-05 22:09:09,885 - BasePage.py:[44] - [INFO] - Typing in an element: month_XPATH value entered as : 12
+2023-02-05 22:09:10,134 - BasePage.py:[44] - [INFO] - Typing in an element: year_XPATH value entered as : 2004
+2023-02-05 22:09:10,509 - BasePage.py:[44] - [INFO] - Typing in an element: zipcode_XPATH value entered as : 10600
+2023-02-05 22:09:10,844 - BasePage.py:[44] - [INFO] - Typing in an element: phone_XPATH value entered as : 9712345558
+2023-02-05 22:09:11,300 - BasePage.py:[44] - [INFO] - Typing in an element: email_XPATH value entered as : Rahul@gmail.com
+2023-02-05 22:09:11,704 - BasePage.py:[44] - [INFO] - Typing in an element: password_XPATH value entered as : paswword@1234
