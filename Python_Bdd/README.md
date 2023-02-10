@@ -28,25 +28,51 @@ Corresponding steps are located in /features/steps
 
 Overall project structure is as follows:
 
-[Root Directory] - Python_Bdd
-        |---------------------- ConfigurationData
-        |---------------------- [features]
-                                    |--- environment.py
-                                    |--- *.features
-                                    |--- Pageobjects
-                                            |----- _pages.py
-                                    |----[steps]
-                                            |----- _steps.py
-        |---------------------- Logs
-        |---------------------- resource
-                                    |-------data
-                                             |-- *{}.json
-                                    |-------environment
-                                             |---{}env.json
-        |---------------------- [Utilities]
-                                    |-------*.py
+[Root Directory] - Python_Bdd/
+```
++-- ConfigurationData
+    +-- conf.ini  (store page locators.)
 
-        |---------------------- [behave.ini | setup.cfg] (Optional Config Settings)
++-- requirements.txt // store python requirements
+
++-- Python_Bdd/
+
++-- features/
+
+    +-- pageobjects // 
+
+        +-- *.py // Python scripts related to corresponding feature (e.g. "login.py" contains steps that are related to "login.feature")
+
+    +-- conf.yaml // store CI/CD config
+
+    +-- environment.py // context setup steps using HOOkS  (e.g. load from config)
+
+    +-- *.feature // feature files
+
+    +-- steps/
+
+        +-- __init__.py // used to import predefined functions from Utilities
+
+        +-- json_responses.py // response structures described in Trafaret format for schema validation
+
+        +-- *.py // Gherkin steps related to corresponding feature (e.g. "login.py" containsgherkin  steps that are related to "login.feature")
+
++--- Logs
+
++--- resource
+        +-- data
+            +--*{}.json         (to store json templates...)(optional)
+
+        +-- environment
+            +-- {}env.json      To store project config (urls, global variables, etc.)
+
++--- [Utilities]
+        +-- *.py    (helpers functions)
+
++--- [behave.ini | setup.cfg]   (Optional Config Settings)
+
+
+
 
 Configuration files (behave.ini, setup.cfg, tox.ini, and .behaverc) in Python Behave do not have problems like fixtures and can be used to setup the environment.
 
@@ -68,21 +94,11 @@ Configuration files (behave.ini, setup.cfg, tox.ini, and .behaverc) in Python Be
 
 ### CI reports
 * ALLURE Reports
+
 * Reports are generated into /reports folder
 * Behave support JUnit reports, that are easily parsed by CI tools
 
-### Running program
-# to execute all feature files (all tests)
-behave features
-
-# to execture specific feature
-behave features/*.feature
-
-# to see printed output add --no-capture
-behave --no-capture
-
-# run features with specific tags
-behave --tags=without_login --tags=slow
+# Running program
 
 ```
 # ----run with allure reports-------
@@ -93,6 +109,26 @@ behave -f allure_behave.formatter:AllureFormatter -o reports/ features
 # ------to view the reports------, 
 allure serve reports/
 ```
+
+
+# ---- to execute all feature files-----
+
+behave features
+
+# ---- to execture specific feature-----
+
+behave features/*.feature
+
+# ---- to see printed output add --no-capture -----
+
+behave --no-capture
+
+# ---- run features with specific tags-----
+
+behave --tags=delete
+behave features\api_user.feature --tags=delete
+
+
 
 ## Help
 

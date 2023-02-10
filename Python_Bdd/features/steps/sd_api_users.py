@@ -1,16 +1,15 @@
 # from __future__ import unicode_literals
 from behave import *
 import requests
-# print(requests.__file__)
-# print(dir(requests))
 from nose.tools import assert_equal
 from pprint import pprint  # prettyprint
 
 
-@When('I send a "{method}" request to "{endpoint}" by {ID}')
+@When('I send a "{method}" request to "{endpoint}" by "{ID}"')
 def step_impl(context, method, endpoint, ID):
     req_url = context.base_url + '/' + endpoint +  '/' + ID
-    context.r = requests.get(req_url, headers=context.headers)
+    # context.r = requests.get(req_url, headers=context.headers)
+    context.r = getattr(requests, method.lower())(req_url, headers=context.headers)
     print(f'\n\n {context.r.url} \n {context.r.text}')
 
 
@@ -22,10 +21,11 @@ def step_impl(context):
     print(print_star)
     print(context.r.json())
 
+
 @when('I send a "{method}" request to "{endpoint}" employee')
 def request_step(context, method, endpoint):
     context.req_url = context.base_url + '/' + endpoint
-    print(f"*____________URI End point____________: {context.req_url}\n")
+    print(f"*______URI End point______: {context.req_url}\n")
     match method:
         case 'GET':
             context.r = requests.get(context.req_url)
@@ -51,5 +51,9 @@ def request_step(context, method, endpoint):
                 payload = {}
                 req_url = context.req_url
         case 'DELETE':
+            req_url = context.req_url
             # save in 'context' variable
-            context.r = requests.delete(req_url)
+            context.r = getattr(requests, method.lower())(
+                req_url, headers=context.headers)
+            print(f'\n {context.r.url} \n {context.r.json()}')
+            print(f'\n {context.r.url} \n {context.r.text}')

@@ -66,18 +66,12 @@ def after_step(context, step):
         allure.attach(context.driver.get_screenshot_as_png(), name='screenshot',
                       attachment_type=allure.attachment_type.PNG)
 
-# def before_scenario(context, driver):
-#     if configReader.readConfig("basic info","browser") == "chrome":
-#         context.driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
-#     if configReader.readConfig("basic info","browser") == "firefox":
-#         context.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 
 # def after_scenario(context, driver):
 #     context.driver.quit()
 
-# def before_all(context):
-#     context.env_path = 'resource\\environment\\env.json'
-#     print(f"*_____________before_all executed__________________: {context.env_path}\n")
-# with open(context.env_path, 'r') as openfile:   # Opening JSON file
-#     jsonObj = json.load(openfile)  # Reading from json file print(jsonObj[env_name])
-# context.host = jsonObj[env_name]
+# def after_scenario(context, scenario):
+#     if context.failed == True:
+#         print(context.scenario, 'failed. Here are the tags:')
+#         for tag in context.tags:
+#             print(tag)
