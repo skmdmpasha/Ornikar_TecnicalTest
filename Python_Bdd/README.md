@@ -43,8 +43,6 @@ Overall project structure is as follows:
 
         +-- *.py // Python scripts related to corresponding feature (e.g. "login.py" contains steps that are related to "login.feature")
 
-    +-- conf.yaml // store CI/CD config
-
     +-- environment.py // context setup steps using HOOkS  (e.g. load from config)
 
     +-- *.feature // feature files
@@ -70,8 +68,6 @@ Overall project structure is as follows:
         +-- *.py    (helpers functions)
 
 +--- [behave.ini | setup.cfg]   (Optional Config Settings)
-
-
 
 
 Configuration files (behave.ini, setup.cfg, tox.ini, and .behaverc) in Python Behave do not have problems like fixtures and can be used to setup the environment.
@@ -100,15 +96,15 @@ Configuration files (behave.ini, setup.cfg, tox.ini, and .behaverc) in Python Be
 
 # Running program
 
-```
+
 # ----run with allure reports-------
 
-# ----to run with allure reports please execute below command------
+# ----to run all feature with allure reports please execute below command------
 behave -f allure_behave.formatter:AllureFormatter -o reports/ features
 
 # ------to view the reports------, 
 allure serve reports/
-```
+
 
 
 # ---- to execute all feature files-----
