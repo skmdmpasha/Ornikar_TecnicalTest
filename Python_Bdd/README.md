@@ -70,7 +70,20 @@ Overall project structure is as follows:
 +--- [behave.ini | setup.cfg]   (Optional Config Settings)
 
 
+Behave configuration files are known as the .behaverc/behave.ini/setup.cfg/tox.ini(any one and is set as per user choice).
+
 Configuration files (behave.ini, setup.cfg, tox.ini, and .behaverc) in Python Behave do not have problems like fixtures and can be used to setup the environment.
+
+I figured it out after spending more time reading the documentation. It is actually quite simple. By default, behave does not display any output (i.e. by using print()) unless there is a failure in the test. To force displaying all output regardless of the outcome of the test (pass/fail), all you need is to change some of the default settings. The easiest way to achieve that is to create a file named behave.ini in the root of your project's directory and put the following:
+
+[behave]
+stderr_capture=False
+stdout_capture=False
+
+Next time you run your behave tests, you will see all outputs from your debug statements whether your tests pass or fail.
+
+
+
 
 ## Getting Started
     Clone project
@@ -100,10 +113,11 @@ Configuration files (behave.ini, setup.cfg, tox.ini, and .behaverc) in Python Be
 # ----run with allure reports-------
 
 # ----to run all feature with allure reports please execute below command------
-behave -f allure_behave.formatter:AllureFormatter -o reports/ features
+
+behave -f allure_behave.formatter:AllureFormatter -o allure_reports/ features
 
 # ------to view the reports------, 
-allure serve reports/
+allure serve allure_reports/
 
 
 
@@ -151,7 +165,9 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Inspiration, code snippets, downloads etc.
+
+* [awesome-downloads](https://www.selenium.dev/downloads/)
 
 * [awesome-libraries](https://pypi.org/)
 

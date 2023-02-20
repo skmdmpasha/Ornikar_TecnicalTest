@@ -10,60 +10,75 @@ Feature: API to fetch Users Information
       And the response status message should equal "OK"
       And the response header "Content-Type" should equal "application/json"
       Then JSON at path "data[1].employee_name" should equal "Garrett Winters"
-    # Then the response status code should equal 200
-    # And the response header "Content-Type" should equal "application/json"
     # And the response structure should equal "usersData"
 
-  @retrievebyID
+
+  @retrive_byId
   Scenario Outline: Test scenario to Search employee by using employee id
-    When I send a "GET" request to "employee" by "<ID>"
+    When I send a "GET" request to "<RETRIVE>" employee
     Then the response header "Content-Type" should equal "application/json"
     And the response status code should equal "200"
     Examples:
-      | ID |
-      | 12 |
-      | 8  |
+      | RETRIVE     |
+      | employee/12 |
+      | employee/8  |
+
 
   @create
   Scenario: Test scenario to create employee record
     When I send a "POST" request to "create" employee
+      """
+      the response status code should be among "200, 201
+      """
       | employee_name | employee_salary | employee_age |
       | Manish        | 2345            | 26           |
       | Xavier        | 4444            | 55           |
       | Tomas         | 7777            | 66           |
-    And the response status code should be among "200, 201"
 
 
   @update
   Scenario: Test scenario to update employee record
     When I send a "PUT" request to "update/@ID" employee
+      """
+      the response status code should be among "200, 201
+      """
       | employee_name | employee_salary | employee_age | @ID |
-      | Manish        | 2345            | 26           | 2   |
-      | Xavier        | 4444            | 55           | 6   |
-      | Tomas         | 7777            | 66           | 4   |
-    Then the response status code should equal "200"
-    And the response status message should equal "OK"
+      | Manish        | 2345            | 36           | 2   |
+      | Xavier        | 5555            | 65           | 6   |
+      | Tomas         | 8888            | 76           | 4   |
+  
 
-  @delete_employees
-  Scenario Outline: Test scenario to delete multiple employees by their id
-    When I send a "DELETE" request to "delete" by "<ID>"
-    Then the response status code should equal "200"
+  @update_byId
+  Scenario Outline: Test scenario to update employee record
+    When I send a "PUT" request to "<UPDATE>" employee
+      | employee_name | employee_salary | employee_age |
+      | Manish        | 2345            | 36           |
+      | Xavier        | 5555            | 65           |
+      | Tomas         | 8888            | 76           |
+    Then the response status code should be among "200, 201"
     Examples:
-      | ID |
-      | 12 |
-      | 8  |
+      | UPDATE   |
+      | update/2 |
+      | update/6 |
+      | update/4 |
 
-  @delete_employee
-  Scenario: Test scenario to delete single employee by id
-    When I send a "DELETE" request to "delete/6" employee
-    Then the response status code should equal "200"
 
-  @json_path
-  Scenario Outline: Test scenario to verify employees data by providing json path
-    When I send a "GET" request to "<Endpoint>" employee
-    Then JSON at path "<DataJpath>" should equal "<ID>"
-    And JSON at path "data.employee_name" should equal "Garrett Winters"
-    Then I want to print it
-    Examples:
-      | Endpoint   | DataJpath | ID |
-      | employee/2 | data.id   | 2  |
+@delete
+Scenario Outline: Test scenario to delete single employee by id
+  When I send a "DELETE" request to "<DELETE>" employee
+  Then the response status code should equal "200"
+  Examples:
+    | DELETE    |
+    | delete/9  |
+    | delete/24 |
+
+
+@json_path
+Scenario Outline: Test scenario to verify employees data by providing json path
+  When I send a "GET" request to "<endpoint>" employee
+  Then JSON at path "<id_path>" should equal "<id_value>"
+  And JSON at path "<name_path>" should equal "<name_value>"
+  Then I want to print it
+  Examples:
+    | endpoint   | id_path | id_value | name_path          | name_value      |
+    | employee/2 | data.id | 2        | data.employee_name | Garrett Winters |
