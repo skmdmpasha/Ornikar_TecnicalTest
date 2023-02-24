@@ -72,12 +72,16 @@ def set_browser_options(browserName):
         # context.driver = webdriver.Firefox(service=Service(
         #     GeckoDriverManager().install()), options=options, firefox_profile=profile)
         
-        # Get the path to the Firefox binary using the 'which' command
-        firefox_binary_path = os.popen('which firefox').read().strip()
+        # # Get the path to the Firefox binary using the 'which' command
+        # firefox_binary_path = os.popen('which firefox').read().strip()
+
+        # Get the path to the Firefox binary using the 'where' command
+        firefox_binary_path = os.popen('where firefox').read().strip()
+
         options.binary_location = firefox_binary_path
 
         
-        # options.binary_location = "C:\\Users\\ACER\\AppData\\Local\\Mozilla Firefox\\Firefox.exe"
+        # options.binary_location = "C:/Users/ACER/AppData/Local/Mozilla Firefox/Firefox.exe"
         options.headless = False
         options.set_preference("browser.privatebrowsing.autostart", True)
         # options.set_preference("dom.webnotifications.enabled", False)
